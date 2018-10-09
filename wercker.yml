@@ -46,7 +46,7 @@ push-release:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
         repository: $DOCKER_REPO
-        registry: https://iad.ocir.io/v2
+        registry: https://hub.docker.com/r
         tag: $WERCKER_GIT_BRANCH
 
 # Deploy to a Kubernetes cluster
